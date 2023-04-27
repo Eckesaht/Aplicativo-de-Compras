@@ -4,17 +4,25 @@ Aplicativo de Compras por texto simples, fazendo uso de alguns conceitos fundame
 abstração e encapsulamento.
 
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
 | :sparkles: Projeto        | **Aplicativo de Compras**
+| -------------  | --- |
 | :label: Tecnologias utilizadas | Java
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
 
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-![Produtos_Disponiveis](https://user-images.githubusercontent.com/19256166/234934195-14fba5e3-59ef-4431-8295-17676a6c5e7b.png#vitrinedev)
+
+![Produtos_Disponiveis.png](img%2FProdutos_Disponiveis.png#vitrinedev)
+![Compra_Finalizada.png](img%2FCompra_Finalizada.png)
 
 ## Detalhes do projeto
-
 ### Uso da arquitetura MVC
-![Arquitetura_MVC](https://user-images.githubusercontent.com/19256166/234935475-5f5940ac-5c58-4eef-b600-a3f615c142c7.png)
+![Arquitetura_MVC.png](img%2FArquitetura_MVC.png) 
+
+
+### Encapsulamento dos métodos internos
+![Encapsulamento.png](img%2FEncapsulamento.png)
+
+
+## Possíveis melhoras
+### Tratamento de exceções
+![ExcecaoPorInput.png](img%2FExcecaoPorInput.png)
+
+

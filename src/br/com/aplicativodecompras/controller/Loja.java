@@ -8,7 +8,7 @@ import java.util.Set;
 import java.util.Collections;
 
 public class Loja extends CartaoDeCredito implements Produtos {
-    Scanner scanner = new Scanner(System.in);
+    protected Scanner scanner = new Scanner(System.in);
 
     public void iniciar() {
         this.mostrarProdutosDisponiveis();
@@ -27,9 +27,9 @@ public class Loja extends CartaoDeCredito implements Produtos {
         }
     }
 
-    private void finalizar() {
+    protected void finalizar() {
         Set<String> keys = carrinhoDeCompras.keySet();
-        System.out.println("COMPRAS REALIZADAS");
+        System.out.println("\nCOMPRAS REALIZADAS");
         double valorTotal = 0;
         ArrayList<Integer> valores = new ArrayList<>();
         for(String key : keys){
@@ -45,11 +45,12 @@ public class Loja extends CartaoDeCredito implements Produtos {
                 }
             }
         }
-        System.out.printf("\nVALOR TOTAL: R$%.2f\n", valorTotal);
+        System.out.println();
+        System.out.printf("\nVALOR TOTAL: R$%.2f", valorTotal);
         this.mostrarLimiteRestante();
     }
 
-    private void escolherProduto() {
+    protected void escolherProduto() {
         System.out.println("Escolha um produto: ");
         int escolha = scanner.nextInt();
         escolha -= 1;
@@ -64,21 +65,22 @@ public class Loja extends CartaoDeCredito implements Produtos {
         this.mostrarLimiteRestante();
     }
 
-    private void atualizarProdutosDisponiveis(ArrayList produtos, ArrayList precos, int indice) {
+    protected void atualizarProdutosDisponiveis(ArrayList produtos, ArrayList precos, int indice) {
         produtos.remove(indice); precos.remove(indice);
     }
-    private void mostrarCarrinhoDeCompras() {
-        Set keys = carrinhoDeCompras.keySet();
+    protected void mostrarCarrinhoDeCompras() {
+        Set<String> keys = carrinhoDeCompras.keySet();
         double valorTotal = 0;
-        for(Object key:keys) {
+        for(String key:keys) {
             System.out.printf("| %s - R$%d ", key, carrinhoDeCompras.get(key));
             valorTotal += carrinhoDeCompras.get(key);
         }
+        System.out.println();
         System.out.printf("\nVALOR TOTAL: R$%.2f", valorTotal);
 
     }
 
-    private void mostrarProdutosDisponiveis() {
+    protected void mostrarProdutosDisponiveis() {
         System.out.println(
                         "==============================================\n" +
                         "             PRODUTOS DISPONÍVEIS             \n" +
@@ -90,7 +92,7 @@ public class Loja extends CartaoDeCredito implements Produtos {
         }
     }
 
-    private void adicionarAoCarrinhoDeCompras(int indice) {
+    protected void adicionarAoCarrinhoDeCompras(int indice) {
         if (checarLimite(precos.get(indice)) == true) {
             this.carrinhoDeCompras.put(produtos.get(indice), precos.get(indice));
             this.setSaldoCredito(getSaldoCredito() - precos.get(indice));

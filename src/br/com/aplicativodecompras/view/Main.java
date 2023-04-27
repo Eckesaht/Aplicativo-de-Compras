@@ -7,6 +7,5 @@ public class Main extends Loja {
         Loja loja = new Loja();
         loja.definirLimite();
         loja.iniciar();
-
     }
 }
