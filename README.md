@@ -20,6 +20,7 @@ abstração e encapsulamento.
 ### Encapsulamento dos métodos internos
 ![Encapsulamento.png](img%2FEncapsulamento.png)
 
+<br>
 
 ## Possíveis melhoras
 ### Tratamento de exceções
