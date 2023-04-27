@@ -1,16 +1,18 @@
-# Nome do meu projeto
+# Aplicativo de Compras
 
-Rápida descrição do objetivo de fazer esse projeto
+Aplicativo de Compras por texto simples, fazendo uso de alguns conceitos fundamentais do Java, como: herança, polimorfismo, orientação a objetos,
+abstração e encapsulamento.
+
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
+| :sparkles: Projeto        | **Aplicativo de Compras**
+| :label: Tecnologias utilizadas | Java
 | :rocket: URL         | https://url-deploy.com.br
 | :fire: Desafio     | https://url-do-desafio.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](https://prnt.sc/el1EwQTsh7A_#vitrinedev)
 
 ## Detalhes do projeto
 
