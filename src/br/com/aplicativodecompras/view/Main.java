@@ -1,6 +1,6 @@
-package br.com.aplicacaodecompras.view;
+package br.com.aplicativodecompras.view;
 
-import br.com.aplicacaodecompras.controller.Loja;
+import br.com.aplicativodecompras.controller.Loja;
 
 public class Main extends Loja {
     public static void main (String[] args){

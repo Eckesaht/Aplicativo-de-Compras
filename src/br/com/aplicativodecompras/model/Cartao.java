@@ -1,4 +1,4 @@
-package br.com.aplicacaodecompras.model;
+package br.com.aplicativodecompras.model;
 
 public class Cartao {
     private double saldoCredito;

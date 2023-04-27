@@ -1,4 +1,4 @@
-package br.com.aplicacaodecompras.model;
+package br.com.aplicativodecompras.model;
 
 import java.util.ArrayList;
 import java.util.Arrays;

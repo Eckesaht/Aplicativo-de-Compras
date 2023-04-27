@@ -1,7 +1,6 @@
-package br.com.aplicacaodecompras.controller;
+package br.com.aplicativodecompras.controller;
 
-import br.com.aplicacaodecompras.model.Cartao;
-import br.com.aplicacaodecompras.model.Produtos;
+import br.com.aplicativodecompras.model.Cartao;
 
 import java.util.Scanner;
 

@@ -12,8 +12,9 @@ abstração e encapsulamento.
 | :fire: Desafio     | https://url-do-desafio.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://prnt.sc/el1EwQTsh7A_#vitrinedev)
+![Produtos_Disponiveis](https://user-images.githubusercontent.com/19256166/234934195-14fba5e3-59ef-4431-8295-17676a6c5e7b.png#vitrinedev)
 
 ## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+### Uso da arquitetura MVC
+![Arquitetura_MVC](https://user-images.githubusercontent.com/19256166/234935475-5f5940ac-5c58-4eef-b600-a3f615c142c7.png)
