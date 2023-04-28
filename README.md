@@ -1,6 +1,6 @@
 # Aplicativo de Compras
 
-Aplicativo de Compras por texto simples, fazendo uso de alguns conceitos fundamentais do Java, como: herança, polimorfismo, orientação a objetos,
+Aplicativo simples de compras por texto, fazendo uso de alguns conceitos fundamentais do Java, como: herança, polimorfismo, orientação a objetos,
 abstração e encapsulamento.
 
 
