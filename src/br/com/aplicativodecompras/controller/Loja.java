@@ -88,7 +88,7 @@ public class Loja extends CartaoDeCredito implements Produtos {
         );
 
         for (var x = 0; x < produtos.size(); x++){
-            System.out.printf("%s - R$%d [Opcao %d]\n", produtos.get(x), precos.get(x), x+1);
+            System.out.printf("%s - R$%d [Opção %d]\n", produtos.get(x), precos.get(x), x+1);
         }
     }
 

@@ -9,7 +9,7 @@ public interface Produtos {
     public ArrayList<String> produtos = new ArrayList<>(Arrays.asList(
             "Sapato", "Mouse",
             "Camisa", "Blusa",
-            "Armario", "Carteira",
+            "Armário", "Carteira",
             "Pendrive", "Celular"
     ));
     public ArrayList<Integer> precos = new ArrayList<>(Arrays.asList(
