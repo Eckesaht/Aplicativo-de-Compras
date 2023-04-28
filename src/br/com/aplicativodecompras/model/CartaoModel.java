@@ -1,6 +1,6 @@
 package br.com.aplicativodecompras.model;
 
-public class Cartao {
+public class CartaoModel {
     protected double saldoCredito;
 
     public double getSaldoCredito() {

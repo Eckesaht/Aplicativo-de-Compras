@@ -1,10 +1,10 @@
 package br.com.aplicativodecompras.controller;
 
-import br.com.aplicativodecompras.model.Cartao;
+import br.com.aplicativodecompras.model.CartaoModel;
 
 import java.util.Scanner;
 
-public class CartaoDeCredito extends Cartao {
+public class CartaoModelDeCreditoController extends CartaoModel {
 
     Scanner scanner = new Scanner(System.in);
     @Override
