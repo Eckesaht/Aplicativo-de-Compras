@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public interface ProdutosModel {
+public interface LojaModel {
     public HashMap<String, Integer> carrinhoDeCompras = new HashMap<>();
     public ArrayList<String> produtos = new ArrayList<>(Arrays.asList(
             "Sapato", "Mouse",

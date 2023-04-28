@@ -4,7 +4,7 @@ import br.com.aplicativodecompras.model.CartaoModel;
 
 import java.util.Scanner;
 
-public class CartaoModelDeCreditoController extends CartaoModel {
+public class CartaoController extends CartaoModel {
 
     Scanner scanner = new Scanner(System.in);
     @Override

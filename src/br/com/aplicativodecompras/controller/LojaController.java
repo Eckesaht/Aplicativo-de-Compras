@@ -1,13 +1,13 @@
 package br.com.aplicativodecompras.controller;
 
-import br.com.aplicativodecompras.model.ProdutosModel;
+import br.com.aplicativodecompras.model.LojaModel;
 
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Set;
 import java.util.Collections;
 
-public class LojaController extends CartaoModelDeCreditoController implements ProdutosModel {
+public class LojaController extends CartaoController implements LojaModel {
     protected Scanner scanner = new Scanner(System.in);
 
     public void iniciar() {
