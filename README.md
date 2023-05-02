@@ -13,7 +13,7 @@ abstração e encapsulamento.
 ![Compra_Finalizada.png](img%2FCompra_Finalizada.png)
 
 ## Detalhes do projeto
-### Arquitetura MVC
+### Arquitetura MVC base
 ![Arquitetura_MVC.png](img%2FArquitetura_MVC.png) 
 
 
